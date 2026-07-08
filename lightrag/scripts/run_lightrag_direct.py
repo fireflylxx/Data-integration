@@ -30,9 +30,9 @@ if sys.platform == "win32":
 # =============================================================================
 # 配置
 # =============================================================================
-API_BASE = "http://10.3.213.253:23001"
-API_KEY = "sk-259d53cf77064362aa19c816c1321e7b"
-LLM_MODEL = "qwen3-32b"
+API_BASE = "  "
+API_KEY = " "
+LLM_MODEL = " "
 EMBEDDING_MODEL = "BAAI/bge-small-zh-v1.5"
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent

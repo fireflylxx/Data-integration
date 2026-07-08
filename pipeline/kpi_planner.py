@@ -21,9 +21,9 @@ from difflib import SequenceMatcher
 # =============================================================================
 # API 配置（与 kg_builder.py 同步）
 # =============================================================================
-API_BASE = "http://10.3.213.253:23001"
-API_KEY = "sk-259d53cf77064362aa19c816c1321e7b"
-LLM_MODEL = "qwen3-32b"
+API_BASE = ""
+API_KEY = ""
+LLM_MODEL = ""
 
 
 def llm_chat(system: str, user: str, max_tokens: int = 1000,
